@@ -4,6 +4,9 @@
 [![icon font webpack plugin demo](https://raw.githubusercontent.com/jantimon/iconfont-webpack-plugin/master/iconfont.gif)](https://codepen.io/jantimon/pen/YoKewb)  
 This plugin tries to keep the usage and maintenance of icon fonts as simple as possible.
 
+# Webpack5 support 
+[webpack5 support](https://github.com/jantimon/iconfont-webpack-plugin/pull/66#issuecomment-1596166882)
+
 ```css
 a:before {
   font-icon: url('./account.svg');
