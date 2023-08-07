@@ -30,7 +30,7 @@ This plugin requires:
 
 ```bash
 npm i --save-dev postcss-loader webpack css-loader
-npm i --save-dev iconfont-webpack-plugin
+npm i --save-dev iconfont-webpack5-plugin
 ```
 
 ## Configuration
@@ -38,7 +38,7 @@ npm i --save-dev iconfont-webpack-plugin
 All you have to do is to add the plugin to your postcss loader plugins inside your `webpack.config.js`:
 
 ```js
-const IconfontWebpackPlugin = require('iconfont-webpack-plugin');
+const IconfontWebpackPlugin = require('iconfont-webpack5-plugin');
 
   module: {
     rules: [
